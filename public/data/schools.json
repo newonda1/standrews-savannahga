@@ -2232,5 +2232,41 @@
     "City": "Charleston",
     "State": "SC",
     "ShortName": "Harvest Baptist"
+  },
+  {
+    "SchoolID": "fl-trinity-christian-academy-jacksonville",
+    "Name": "Trinity Christian Academy",
+    "City": "Jacksonville",
+    "State": "FL"
+  },
+  {
+    "SchoolID": "ga-camden-county-high-school-kingsland",
+    "Name": "Camden County High School",
+    "City": "Kingsland",
+    "State": "GA"
+  },
+  {
+    "SchoolID": "ga-chapel-hill-high-school-douglasville",
+    "Name": "Chapel Hill High School",
+    "City": "Douglasville",
+    "State": "GA"
+  },
+  {
+    "SchoolID": "ga-etowah-high-school-woodstock",
+    "Name": "Etowah High School",
+    "City": "Woodstock",
+    "State": "GA"
+  },
+  {
+    "SchoolID": "ga-mount-vernon-school-atlanta",
+    "Name": "Mount Vernon School",
+    "City": "Atlanta",
+    "State": "GA"
+  },
+  {
+    "SchoolID": "ga-saint-francis-school-milton",
+    "Name": "Saint Francis School",
+    "City": "Milton",
+    "State": "GA"
   }
 ]

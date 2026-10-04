@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T15:42:21.327Z",
-  "itemCount": 1461,
+  "generatedAt": "2026-10-04T16:05:15.252Z",
+  "itemCount": 1471,
   "items": [
     {
       "id": "athletics-home",
@@ -19796,7 +19796,9 @@
         "Trinity Christian",
         "Crusaders",
         "Dublin",
-        "GA"
+        "GA",
+        "Jacksonville",
+        "FL"
       ]
     },
     {
@@ -22229,6 +22231,169 @@
         "records",
         "Grovetown High School",
         "Grovetown",
+        "GA"
+      ]
+    },
+    {
+      "id": "boys-basketball-team-tbd-starr-s-mill-classic",
+      "type": "team",
+      "title": "TBD (Starr's Mill Classic)",
+      "subtitle": "Boys Basketball opponent history",
+      "to": "/athletics/boys/basketball/records/opponents?team=TBD+%28Starr%27s+Mill+Classic%29",
+      "keywords": [
+        "Boys Basketball",
+        "team",
+        "opponent",
+        "history",
+        "records",
+        "TBD (Starr's Mill Classic)"
+      ]
+    },
+    {
+      "id": "boys-basketball-team-tbd-winder-thanksgiving-classic",
+      "type": "team",
+      "title": "TBD (Winder Thanksgiving Classic)",
+      "subtitle": "Boys Basketball opponent history",
+      "to": "/athletics/boys/basketball/records/opponents?team=TBD+%28Winder+Thanksgiving+Classic%29",
+      "keywords": [
+        "Boys Basketball",
+        "team",
+        "opponent",
+        "history",
+        "records",
+        "TBD (Winder Thanksgiving Classic)"
+      ]
+    },
+    {
+      "id": "boys-basketball-team-mount-vernon-school",
+      "type": "team",
+      "title": "Mount Vernon School",
+      "subtitle": "Boys Basketball opponent history - Atlanta, GA",
+      "to": "/athletics/boys/basketball/records/opponents?team=Mount+Vernon+School",
+      "keywords": [
+        "Boys Basketball",
+        "team",
+        "opponent",
+        "history",
+        "records",
+        "Mount Vernon School",
+        "Atlanta",
+        "GA"
+      ]
+    },
+    {
+      "id": "boys-basketball-team-etowah-high-school",
+      "type": "team",
+      "title": "Etowah High School",
+      "subtitle": "Boys Basketball opponent history - Woodstock, GA",
+      "to": "/athletics/boys/basketball/records/opponents?team=Etowah+High+School",
+      "keywords": [
+        "Boys Basketball",
+        "team",
+        "opponent",
+        "history",
+        "records",
+        "Etowah High School",
+        "Woodstock",
+        "GA"
+      ]
+    },
+    {
+      "id": "boys-basketball-team-tbd-sccpss-holiday-classic",
+      "type": "team",
+      "title": "TBD (SCCPSS Holiday Classic)",
+      "subtitle": "Boys Basketball opponent history",
+      "to": "/athletics/boys/basketball/records/opponents?team=TBD+%28SCCPSS+Holiday+Classic%29",
+      "keywords": [
+        "Boys Basketball",
+        "team",
+        "opponent",
+        "history",
+        "records",
+        "TBD (SCCPSS Holiday Classic)"
+      ]
+    },
+    {
+      "id": "boys-basketball-team-tbd-lemon-street-classic",
+      "type": "team",
+      "title": "TBD (Lemon Street Classic)",
+      "subtitle": "Boys Basketball opponent history",
+      "to": "/athletics/boys/basketball/records/opponents?team=TBD+%28Lemon+Street+Classic%29",
+      "keywords": [
+        "Boys Basketball",
+        "team",
+        "opponent",
+        "history",
+        "records",
+        "TBD (Lemon Street Classic)"
+      ]
+    },
+    {
+      "id": "boys-basketball-team-saint-francis-school",
+      "type": "team",
+      "title": "Saint Francis School",
+      "subtitle": "Boys Basketball opponent history - Milton, GA",
+      "to": "/athletics/boys/basketball/records/opponents?team=Saint+Francis+School",
+      "keywords": [
+        "Boys Basketball",
+        "team",
+        "opponent",
+        "history",
+        "records",
+        "Saint Francis School",
+        "Milton",
+        "GA"
+      ]
+    },
+    {
+      "id": "boys-basketball-team-chapel-hill-high-school",
+      "type": "team",
+      "title": "Chapel Hill High School",
+      "subtitle": "Boys Basketball opponent history - Douglasville, GA",
+      "to": "/athletics/boys/basketball/records/opponents?team=Chapel+Hill+High+School",
+      "keywords": [
+        "Boys Basketball",
+        "team",
+        "opponent",
+        "history",
+        "records",
+        "Chapel Hill High School",
+        "Douglasville",
+        "GA"
+      ]
+    },
+    {
+      "id": "boys-basketball-team-savannah-country-day",
+      "type": "team",
+      "title": "Savannah Country Day",
+      "subtitle": "Boys Basketball opponent history - Savannah, GA",
+      "to": "/athletics/boys/basketball/records/opponents?team=Savannah+Country+Day",
+      "keywords": [
+        "Boys Basketball",
+        "team",
+        "opponent",
+        "history",
+        "records",
+        "Savannah Country Day",
+        "Hornets",
+        "Savannah",
+        "GA"
+      ]
+    },
+    {
+      "id": "boys-basketball-team-camden-county-high-school",
+      "type": "team",
+      "title": "Camden County High School",
+      "subtitle": "Boys Basketball opponent history - Kingsland, GA",
+      "to": "/athletics/boys/basketball/records/opponents?team=Camden+County+High+School",
+      "keywords": [
+        "Boys Basketball",
+        "team",
+        "opponent",
+        "history",
+        "records",
+        "Camden County High School",
+        "Kingsland",
         "GA"
       ]
     },

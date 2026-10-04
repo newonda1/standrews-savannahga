@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
+import PlayerHeadshot from "../../../components/PlayerHeadshot";
 import {
   RegionBracket5GameSVG,
   StateBracket12GameSVG,
@@ -65,6 +66,25 @@ const playerStatColumns = [
 function safeNumber(value) {
   const number = Number(value);
   return Number.isFinite(number) ? number : 0;
+}
+
+function createEmptyPlayerTotal(playerId) {
+  return {
+    PlayerID: playerId,
+    GamesPlayedSet: new Set(),
+    Points: 0,
+    Rebounds: 0,
+    Assists: 0,
+    Turnovers: 0,
+    Steals: 0,
+    Blocks: 0,
+    ThreePM: 0,
+    ThreePA: 0,
+    TwoPM: 0,
+    TwoPA: 0,
+    FTM: 0,
+    FTA: 0,
+  };
 }
 
 function rawPct(made, attempted) {
@@ -198,25 +218,18 @@ function Season2026_27() {
   const seasonTotals = useMemo(() => {
     const totalsByPlayer = new Map();
 
+    for (const rosterEntry of rosterEntries) {
+      const playerId = String(rosterEntry.PlayerID);
+      totalsByPlayer.set(
+        playerId,
+        createEmptyPlayerTotal(rosterEntry.PlayerID)
+      );
+    }
+
     for (const stat of playerStats) {
-      const playerId = stat.PlayerID;
+      const playerId = String(stat.PlayerID);
       if (!totalsByPlayer.has(playerId)) {
-        totalsByPlayer.set(playerId, {
-          PlayerID: playerId,
-          GamesPlayedSet: new Set(),
-          Points: 0,
-          Rebounds: 0,
-          Assists: 0,
-          Turnovers: 0,
-          Steals: 0,
-          Blocks: 0,
-          ThreePM: 0,
-          ThreePA: 0,
-          TwoPM: 0,
-          TwoPA: 0,
-          FTM: 0,
-          FTA: 0,
-        });
+        totalsByPlayer.set(playerId, createEmptyPlayerTotal(stat.PlayerID));
       }
 
       const total = totalsByPlayer.get(playerId);
@@ -232,7 +245,7 @@ function Season2026_27() {
       ...total,
       GamesPlayed: total.GamesPlayedSet.size,
     }));
-  }, [playerStats]);
+  }, [playerStats, rosterEntries]);
 
   const teamGamesPlayed = useMemo(
     () => new Set(playerStats.map((stat) => Number(stat.GameID))).size,
@@ -740,13 +753,13 @@ function Season2026_27() {
                         className={`border px-2 py-1 text-left align-middle sticky left-0 z-20 ${rowBackground} border-r min-w-[200px]`}
                       >
                         <div className="flex items-center justify-start gap-2">
-                          <img
-                            src={`/images/boys/basketball/players/${player.PlayerID}.jpg`}
-                            alt={name}
-                            onError={(event) => {
-                              event.currentTarget.src = "/images/common/logo.png";
-                            }}
-                            className="w-8 h-8 rounded-full object-cover border"
+                          <PlayerHeadshot
+                            playerId={player.PlayerID}
+                            sportKey="boys-basketball"
+                            gender="Boys"
+                            name={name}
+                            fallbackSrc="/images/common/logo.png"
+                            className="h-8 w-8 shrink-0 rounded-full border object-cover"
                           />
                           <Link
                             to={`/athletics/boys/basketball/players/${player.PlayerID}`}
@@ -756,7 +769,9 @@ function Season2026_27() {
                           </Link>
                         </div>
                       </td>
-                      <td className="border px-2 py-1">{getJerseyNumber(player.PlayerID)}</td>
+                      <td className="border px-2 py-1">
+                        {getJerseyNumber(player.PlayerID) || "—"}
+                      </td>
                       <td className="border px-2 py-1">{player.GamesPlayed}</td>
                       {playerStatColumns.map((column) => (
                         <td key={column.key} className="border px-2 py-1">
