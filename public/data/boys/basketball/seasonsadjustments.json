@@ -238,5 +238,20 @@
     "tourneyL": 3,
     "playoffW": 0,
     "playoffL": 1
+  },
+  {
+    "SeasonID": 2026,
+    "overallW": null,
+    "overallL": null,
+    "regionW": null,
+    "regionL": null,
+    "homeW": null,
+    "homeL": null,
+    "awayW": null,
+    "awayL": null,
+    "tourneyW": null,
+    "tourneyL": null,
+    "playoffW": null,
+    "playoffL": null
   }
 ]
