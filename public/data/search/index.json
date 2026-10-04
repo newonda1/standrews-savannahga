@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-22T17:21:16.082Z",
-  "itemCount": 1453,
+  "generatedAt": "2026-10-04T15:42:21.327Z",
+  "itemCount": 1461,
   "items": [
     {
       "id": "athletics-home",
@@ -7832,6 +7832,146 @@
         "Copic Milos",
         "class of 2026",
         "grad 2026"
+      ]
+    },
+    {
+      "id": "boys-basketball-athlete-202603",
+      "type": "athlete",
+      "title": "Syre Hopkins",
+      "subtitle": "Boys Basketball athlete",
+      "to": "/athletics/boys/basketball/players/202603",
+      "keywords": [
+        "Boys Basketball",
+        "athlete",
+        "player",
+        "stats",
+        "records",
+        "Syre",
+        "Hopkins",
+        "Hopkins Syre"
+      ]
+    },
+    {
+      "id": "boys-basketball-athlete-202604",
+      "type": "athlete",
+      "title": "Mathis Ewan Kessel",
+      "subtitle": "Boys Basketball athlete",
+      "to": "/athletics/boys/basketball/players/202604",
+      "keywords": [
+        "Boys Basketball",
+        "athlete",
+        "player",
+        "stats",
+        "records",
+        "Mathis Ewan",
+        "Kessel",
+        "Kessel Mathis Ewan"
+      ]
+    },
+    {
+      "id": "boys-basketball-athlete-202605",
+      "type": "athlete",
+      "title": "Malakhi Mitchell",
+      "subtitle": "Boys Basketball athlete",
+      "to": "/athletics/boys/basketball/players/202605",
+      "keywords": [
+        "Boys Basketball",
+        "athlete",
+        "player",
+        "stats",
+        "records",
+        "Malakhi",
+        "Mitchell",
+        "Mitchell Malakhi"
+      ]
+    },
+    {
+      "id": "boys-basketball-athlete-202602",
+      "type": "athlete",
+      "title": "Filip Sukilovic",
+      "subtitle": "Boys Basketball athlete - Class of 2027",
+      "to": "/athletics/boys/basketball/players/202602",
+      "keywords": [
+        "Boys Basketball",
+        "athlete",
+        "player",
+        "stats",
+        "records",
+        "Filip",
+        "Sukilovic",
+        "Sukilovic Filip",
+        "class of 2027",
+        "grad 2027"
+      ]
+    },
+    {
+      "id": "boys-basketball-athlete-202606",
+      "type": "athlete",
+      "title": "Cole Thompson",
+      "subtitle": "Boys Basketball athlete",
+      "to": "/athletics/boys/basketball/players/202606",
+      "keywords": [
+        "Boys Basketball",
+        "athlete",
+        "player",
+        "stats",
+        "records",
+        "Cole",
+        "Thompson",
+        "Thompson Cole"
+      ]
+    },
+    {
+      "id": "boys-basketball-athlete-202601",
+      "type": "athlete",
+      "title": "Jordan Walls",
+      "subtitle": "Boys Basketball athlete - Class of 2028",
+      "to": "/athletics/boys/basketball/players/202601",
+      "keywords": [
+        "Boys Basketball",
+        "athlete",
+        "player",
+        "stats",
+        "records",
+        "Jordan",
+        "Walls",
+        "Walls Jordan",
+        "class of 2028",
+        "grad 2028"
+      ]
+    },
+    {
+      "id": "boys-basketball-athlete-202607",
+      "type": "athlete",
+      "title": "Aaron Whitely",
+      "subtitle": "Boys Basketball athlete",
+      "to": "/athletics/boys/basketball/players/202607",
+      "keywords": [
+        "Boys Basketball",
+        "athlete",
+        "player",
+        "stats",
+        "records",
+        "Aaron",
+        "Whitely",
+        "Whitely Aaron"
+      ]
+    },
+    {
+      "id": "boys-basketball-athlete-202608",
+      "type": "athlete",
+      "title": "Andrew Wiggins",
+      "subtitle": "Boys Basketball athlete",
+      "to": "/athletics/boys/basketball/players/202608",
+      "keywords": [
+        "Boys Basketball",
+        "athlete",
+        "player",
+        "stats",
+        "records",
+        "Andrew",
+        "Wiggins",
+        "Wiggins Andrew"
       ]
     },
     {

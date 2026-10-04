@@ -4989,5 +4989,62 @@
         "JerseyNumber": 33
       }
     ]
+  },
+  {
+    "SeasonID": "2026-27",
+    "Players": [
+      {
+        "PlayerID": 202402,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202501,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202405,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202603,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202407,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202604,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202605,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202602,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202606,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202506,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202601,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202607,
+        "JerseyNumber": null
+      },
+      {
+        "PlayerID": 202608,
+        "JerseyNumber": null
+      }
+    ]
   }
 ]
