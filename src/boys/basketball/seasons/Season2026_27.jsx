@@ -16,6 +16,17 @@ import {
 const SEASON_ID = 2026;
 const SEASON_LABEL = "2026–27";
 
+function PlayerLink({ playerId, children }) {
+  return (
+    <Link
+      to={"/athletics/boys/basketball/players/" + playerId}
+      className="font-semibold text-blue-600 underline decoration-blue-300 underline-offset-2 hover:text-blue-800"
+    >
+      {children}
+    </Link>
+  );
+}
+
 const countingStatKeys = new Set([
   "Points",
   "Rebounds",
@@ -349,144 +360,125 @@ function Season2026_27() {
 
         <div className="text-gray-800 leading-relaxed">
           <p className="mb-4 leading-relaxed text-justify">
-            The standard surrounding St. Andrew’s boys basketball has never
-            been higher, but the message guiding the Lions into 2026–27 is a
-            reminder that past success guarantees nothing:{" "}
-            <strong>“Nothing Just Happens.”</strong> A year after finishing{" "}
-            <strong>20–8 overall</strong>, sweeping region play at 8–0, winning
-            a <strong>fifth consecutive region championship</strong>, and
-            advancing to the GIAA AAA state title game, St. Andrew’s begins a
-            new season with both confidence in what the program has built and
-            motivation from the championship that slipped away.
+            St. Andrew’s enters 2026–27 with a target on its back and unfinished
+            business in front of it. The Lions are coming off a 20–8 season that
+            included another unbeaten run through region play. It ended on the
+            GIAA AAA state championship stage, one victory short of the prize.
+            The message inside the program is therefore both a reminder and a
+            challenge: <strong>“Nothing Just Happens.”</strong> This group has
+            every reason to be confident—and every reason to be hungry.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            That final loss to Brookwood sharpened the lesson this group will
-            carry forward: <strong>the details matter</strong>. Daily
-            preparation, consistent execution, and the ability to remain
-            connected through adversity separated the Lions from most of their
-            opponents last season. Turning another talented roster into a
-            championship team will require the same habits with even greater
-            focus, purpose, and player ownership.
+            The loss to Brookwood sharpened a lesson that will follow the Lions
+            into every gym this winter: <strong>the details decide games</strong>.
+            Talent can put a team in position to win. The smallest habits often
+            determine who is still standing in the end. St. Andrew’s knows just
+            how thin that margin can be, and now must turn experience into
+            sharper execution with a stronger sense of ownership.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            The foundation begins with{" "}
-            <strong>Page Getter, Chase Brown, and Pat Jackson</strong>, three
-            returners whose varsity experience gives the Lions stability as
-            new roles take shape. Getter returns after earning{" "}
-            <strong>First Team All-Region and All-State</strong> honors and
-            will be asked to expand his leadership while remaining one of the
-            team’s central playmakers. Brown, a{" "}
-            <strong>Second Team All-Region</strong> selection, brings shooting,
-            reliable production, and a growing voice. Both put together
-            impactful offseasons, and the Lions expect that work to show in
-            greater confidence and responsibility. Jackson’s experience will
-            also be essential as he provides dependable minutes, executes his
-            role, and helps reinforce the program’s standards each day.
+            <PlayerLink playerId={202405}>Page Getter</PlayerLink> returns after
+            earning <strong>First Team All-Region and All-State</strong> honors.
+            He steps into an even larger role as a playmaker and leader. Beside
+            him, <PlayerLink playerId={202402}>Chase Brown</PlayerLink> gives the
+            Lions a proven shooter whose confidence grew throughout an
+            impactful offseason. <PlayerLink playerId={202407}>Pat Jackson</PlayerLink>{" "}
+            brings valuable varsity experience and the dependability to steady
+            the team when games become chaotic. Their familiarity with the
+            program gives St. Andrew’s a firm base while new roles come into
+            focus.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            Around that returning core is an intriguing collection of new and
-            younger talent. <strong>Jordan Walls</strong>, a 6-foot-9 forward
-            in the Class of 2028, gives St. Andrew’s size and versatility. He
-            can finish around the basket, attack the rim, step outside to
-            shoot, protect the paint, and use his mobility to switch defensively.
-            Walls plays on the club circuit with Redline Elite UA Rise and is
-            already drawing statewide attention. Prep Hoops lists him No. 59
-            among Georgia’s 2028 prospects and No. 11 among power forwards,
-            while Sandy’s Spiel separately ranks him No. 8 among the class’s
-            power forwards.
+            The newcomer most likely to make fans sit up immediately is{" "}
+            <PlayerLink playerId={202601}>Jordan Walls</PlayerLink>. At 6-foot-9,
+            the Class of 2028 forward can score at the rim or stretch a defense
+            beyond the arc. His mobility gives the Lions a potential paint
+            protector who can also switch onto the ball. Already competing on
+            the club circuit with Redline Elite UA Rise, he has begun to draw
+            statewide attention. Prep Hoops lists him No. 59 among Georgia’s
+            2028 prospects and No. 11 at power forward. Sandy’s Spiel separately
+            ranks him No. 8 among the class’s power forwards.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            <strong>Filip Sukilovic</strong> adds another dimension to the
-            frontcourt. The 6-foot-8 member of the Class of 2027 comes to St.
-            Andrew’s from Serbia, where he most recently played for KK Žitko
-            Basket Beograd, bringing size and international basketball
-            experience to Savannah. In the backcourt,{" "}
-            <strong>Syre Hopkins</strong> is a 5-foot-10 left-handed point guard
-            whose pass-first approach is built around creating opportunities
-            for teammates. Together with other developing players, the
-            newcomers give the Lions more options and a chance to build a
-            different identity around a familiar standard.
+            More size arrives with{" "}
+            <PlayerLink playerId={202602}>Filip Sukilovic</PlayerLink>, a
+            6-foot-8 member of the Class of 2027 who comes to Savannah from
+            Serbia. His experience with KK Žitko Basket Beograd gives the Lions
+            an international addition with room to grow into an important
+            frontcourt role. The backcourt adds a different flavor in{" "}
+            <PlayerLink playerId={202603}>Syre Hopkins</PlayerLink>, a
+            5-foot-10 left-handed point guard who looks to create for others
+            first. His willingness to move the ball could become an important
+            ingredient as the rotation takes shape.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            Early glimpses of that potential appeared during June workouts,
-            and the progress has continued through strength training, open
-            gyms, and preseason preparation. The coaching staff has seen a
-            group working with greater intention in its conditioning and skill
-            development while also building the camaraderie required for a
-            long season. That combination of purposeful work and growing trust
-            is encouraging, but leadership remains a developing part of the
-            team’s story. The next step is for players to become consistent
-            voices who model accountability, communication, and a team-first
-            mindset without waiting for the coaches to set every tone.
+            The coaching staff caught an early glimpse of how these pieces
+            might fit during June workouts. Since then, the group has attacked
+            the offseason with greater intention and built genuine camaraderie
+            along the way. The energy is there. The next step is for the locker
+            room to find its own voice, with players setting the standard
+            instead of waiting for coaches to supply the spark each day.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
             Offensively, St. Andrew’s wants to play with pace and purpose. The
-            Lions will look to push when opportunities appear, then rely on
-            spacing, ball movement, and disciplined decisions in the half
-            court. Getter and Brown provide proven production, while the
-            newcomers create different ways to attack. The objective is not
-            simply to accumulate scorers, but to become a connected and
-            unselfish group that consistently creates quality shots for the
-            right player.
+            Lions will look to run when opportunities appear, then make a
+            defense work through spacing and unselfish ball movement in the
+            half court. <PlayerLink playerId={202405}>Page Getter</PlayerLink>{" "}
+            and <PlayerLink playerId={202402}>Chase Brown</PlayerLink> provide
+            proven production. The new faces give the offense more ways to bend
+            a defense. At its best, this should be a team that makes the extra
+            pass and forces opponents to guard the entire floor.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            The defensive identity will be built on{" "}
-            <strong>effort, discipline, and communication</strong>. St.
-            Andrew’s intends to pressure the basketball, remain connected away
-            from it, help with purpose, and finish possessions on the glass.
-            The challenge will be sustaining that standard when shots are not
-            falling or momentum shifts. Physical toughness, emotional maturity,
-            and the composure to respond to mistakes will be early measures of
-            whether this team’s considerable potential is becoming dependable
-            performance.
+            Defense remains the program’s calling card. St. Andrew’s intends to
+            make every possession uncomfortable, pressure the basketball and
+            finish the job on the glass. The revealing moments will come when a
+            shot does not fall or an opponent lands a run. How quickly the Lions
+            answer—and whether they keep defending with the same edge—will show
+            how close their potential is to becoming something dependable.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            A demanding non-region schedule should reveal those qualities
-            quickly. November road trips to GHSA 6A programs South Effingham
-            and Effingham County are joined by a matchup with 5A Winder-Barrow
-            in the Winder Thanksgiving Classic and an appearance in the
-            Starr’s Mill Classic. December brings return games with Effingham
-            County and South Effingham, a trip to 2A Mount Vernon, a meeting
-            with 7A Etowah in the Wood Elite Classic, and appearances in the
-            SCCPSS Holiday Classic and Lemon Street Classic. January adds road
-            tests at 2A Saint Francis and 7A Camden County, along with a matchup
-            against 6A Chapel Hill in the Sewer South Classic. Each test is an
-            opportunity to learn how this group handles pressure before the
-            postseason arrives.
+            There will be no shortage of measuring sticks. The Lions visit
+            South Effingham and Effingham County in November before facing 5A
+            Winder-Barrow in the Winder Thanksgiving Classic. December features
+            a road date with Mount Vernon, plus a matchup against 7A Etowah in
+            the Wood Elite Classic. Holiday tournament games will keep the
+            month moving at full speed. January opens with Saint Francis. Later
+            come 7A Camden County and 6A Chapel Hill in the Sewer South Classic.
+            Those games should reveal plenty before the postseason spotlight
+            arrives.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            Region opponents will offer their own challenge. Five straight
-            championships ensure that St. Andrew’s will receive everyone’s
-            best effort, and the accomplishments of previous teams will not win
-            a single game for this one. The Lions must earn their place through
-            daily improvement, disciplined preparation, and the willingness to
-            put team success ahead of individual comfort. Their identity will
-            be shaped by how consistently they embrace those expectations and
-            how quickly leadership emerges from within the locker room.
+            Region play carries even more electricity this season. St. Andrew’s
+            has won <strong>five consecutive region championships</strong> and{" "}
+            <strong>50 consecutive region victories</strong>, numbers
+            that make the Lions the date everyone circles. Now Savannah Country
+            Day has moved to the GIAA and joins the region, creating a natural
+            crosstown rivalry with immediate stakes. The Hornets add fresh
+            intrigue to a race in which every opponent will be eager to end St.
+            Andrew’s run.
           </p>
 
           <p className="mb-3 leading-relaxed text-justify">
-            Wins, banners, and another postseason run remain worthy goals, but
-            the larger measure of 2026–27 will be the growth of the players as
-            students, teammates, and young men. The season’s theme is reflected
-            in the program’s <strong>DETAILS</strong> values —{" "}
+            Wins and banners remain worthy goals, but the larger measure of
+            2026–27 will be how much this group grows together. The season’s
+            theme is reflected in the program’s <strong>DETAILS</strong> values —{" "}
             <strong>
               Discipline, Execution, Trust, Accountability, Integrity,
               Leadership, and Sacrifice
-            </strong>. If the Lions learn to take ownership, respond to
-            adversity with toughness and composure, and carry those habits
-            beyond the court, their success will mean more than the final
-            record. Nothing just happens, and this team now has the opportunity
-            to prove what intentional work can build.
+            </strong>. If the Lions learn to take ownership and respond to
+            adversity without splintering, their success will mean more than
+            the final record. Nothing just happens. This team gets to decide
+            what all that work becomes.
           </p>
         </div>
       </section>

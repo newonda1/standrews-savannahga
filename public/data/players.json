@@ -6590,5 +6590,29 @@
     "LastName": "McIntire",
     "GradYear": 2003,
     "Gender": "Boys"
+  },
+  {
+    "PlayerID": 202601,
+    "PlayerName": "Jordan Walls",
+    "FirstName": "Jordan",
+    "LastName": "Walls",
+    "GradYear": 2028,
+    "Gender": "Boys"
+  },
+  {
+    "PlayerID": 202602,
+    "PlayerName": "Filip Sukilovic",
+    "FirstName": "Filip",
+    "LastName": "Sukilovic",
+    "GradYear": 2027,
+    "Gender": "Boys"
+  },
+  {
+    "PlayerID": 202603,
+    "PlayerName": "Syre Hopkins",
+    "FirstName": "Syre",
+    "LastName": "Hopkins",
+    "GradYear": null,
+    "Gender": "Boys"
   }
 ]
