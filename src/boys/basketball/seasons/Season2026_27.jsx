@@ -362,20 +362,22 @@ function Season2026_27() {
           <p className="mb-4 leading-relaxed text-justify">
             St. Andrew’s enters 2026–27 with a target on its back and unfinished
             business in front of it. The Lions are coming off a 20–8 season that
-            included another unbeaten run through region play. It ended on the
-            GIAA AAA state championship stage, one victory short of the prize.
-            The message inside the program is therefore both a reminder and a
-            challenge: <strong>“Nothing Just Happens.”</strong> This group has
-            every reason to be confident—and every reason to be hungry.
+            included another unbeaten run through region play. However, it also
+            ended on the GIAA AAA state championship stage, one victory short of
+            the prize. The message inside the program is therefore both a
+            reminder and a challenge: <strong>“Nothing Just Happens.”</strong>{" "}
+            This group has every reason to be confident and every reason to be
+            hungry.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
             The loss to Brookwood sharpened a lesson that will follow the Lions
-            into every gym this winter: <strong>the details decide games</strong>.
-            Talent can put a team in position to win. The smallest habits often
-            determine who is still standing in the end. St. Andrew’s knows just
-            how thin that margin can be, and now must turn experience into
-            sharper execution with a stronger sense of ownership.
+            into every gym this winter, that <strong>details decide games</strong>.
+            Talent can put a team in position to win but it is the smallest
+            habits that often determine who is still standing in the end. St.
+            Andrew’s knows just how thin that margin can be, and now they must
+            turn their experience into sharper execution with a stronger sense
+            of ownership.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
@@ -427,58 +429,45 @@ function Season2026_27() {
 
           <p className="mb-4 leading-relaxed text-justify">
             Offensively, St. Andrew’s wants to play with pace and purpose. The
-            Lions will look to run when opportunities appear, then make a
-            defense work through spacing and unselfish ball movement in the
-            half court. <PlayerLink playerId={202405}>Page Getter</PlayerLink>{" "}
-            and <PlayerLink playerId={202402}>Chase Brown</PlayerLink> provide
-            proven production. The new faces give the offense more ways to bend
-            a defense. At its best, this should be a team that makes the extra
-            pass and forces opponents to guard the entire floor.
-          </p>
-
-          <p className="mb-4 leading-relaxed text-justify">
-            Defense remains the program’s calling card. St. Andrew’s intends to
+            Lions will look to run when opportunities appear but, as always,
+            defense remains the program’s calling card. St. Andrew’s intends to
             make every possession uncomfortable, pressure the basketball and
             finish the job on the glass. The revealing moments will come when a
             shot does not fall or an opponent lands a run. How quickly the Lions
-            answer—and whether they keep defending with the same edge—will show
-            how close their potential is to becoming something dependable.
+            answer, and whether they keep defending with the same edge, will
+            show how close their potential is to becoming something dependable.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
             There will be no shortage of measuring sticks. The Lions visit
-            South Effingham and Effingham County in November before facing 5A
-            Winder-Barrow in the Winder Thanksgiving Classic. December features
-            a road date with Mount Vernon, plus a matchup against 7A Etowah in
-            the Wood Elite Classic. Holiday tournament games will keep the
-            month moving at full speed. January opens with Saint Francis. Later
-            come 7A Camden County and 6A Chapel Hill in the Sewer South Classic.
-            Those games should reveal plenty before the postseason spotlight
-            arrives.
+            South Effingham and Effingham County in November before facing GHSA
+            5A Winder-Barrow in the Winder Thanksgiving Classic. December
+            features a road date with Mount Vernon, plus a matchup against 7A
+            Etowah in the Wood Elite Classic. Holiday tournament games will keep
+            the month moving at full speed. January opens with Saint Francis
+            with 7A Camden County and 6A Chapel Hill coming later in the Sewer
+            South Classic. Those games should reveal plenty before the
+            postseason spotlight arrives.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
             Region play carries even more electricity this season. St. Andrew’s
-            has won <strong>five consecutive region championships</strong> and{" "}
-            <strong>50 consecutive region victories</strong>, numbers
-            that make the Lions the date everyone circles. Now Savannah Country
-            Day has moved to the GIAA and joins the region, creating a natural
-            crosstown rivalry with immediate stakes. The Hornets add fresh
-            intrigue to a race in which every opponent will be eager to end St.
-            Andrew’s run.
+            has won <strong>50 consecutive region games</strong> and{" "}
+            <strong>five consecutive region championships</strong>. Those
+            numbers make the games against the Lions the dates everyone in the
+            region circles. This season Savannah Country Day has moved to the
+            GIAA and joins the region, creating a natural crosstown rivalry with
+            immediate stakes. The Hornets add fresh intrigue to a race in which
+            every opponent will be eager to end St. Andrew’s run.
           </p>
 
           <p className="mb-3 leading-relaxed text-justify">
             Wins and banners remain worthy goals, but the larger measure of
             2026–27 will be how much this group grows together. The season’s
-            theme is reflected in the program’s <strong>DETAILS</strong> values —{" "}
-            <strong>
-              Discipline, Execution, Trust, Accountability, Integrity,
-              Leadership, and Sacrifice
-            </strong>. If the Lions learn to take ownership and respond to
-            adversity without splintering, their success will mean more than
-            the final record. Nothing just happens. This team gets to decide
-            what all that work becomes.
+            theme is reflected in the program’s mantra that{" "}
+            <strong>DETAILS</strong> matter. If the Lions learn to take ownership
+            and respond to adversity without splintering, their success will
+            mean more than the final record.
           </p>
         </div>
       </section>
