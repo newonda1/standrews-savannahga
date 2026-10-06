@@ -373,114 +373,71 @@ function Season2026_27() {
 
         <div className="text-gray-800 leading-relaxed">
           <p className="mb-4 leading-relaxed text-justify">
-            St. Andrew’s enters 2026–27 with a target on its back and unfinished
-            business in front of it. The Lions are coming off a 20–8 season that
-            included another unbeaten run through region play. However, it also
-            ended on the GIAA AAA state championship stage, one victory short of
-            the prize. The message inside the program is therefore both a
-            reminder and a challenge: <strong>“Nothing Just Happens.”</strong>{" "}
-            This group has every reason to be confident and every reason to be
-            hungry.
+            St. Andrew’s enters the 2026–27 season coming off a 20–8 campaign that included another unbeaten region record and a run to the GIAA AAA state championship game. The Lions fell one game short of the state title, giving this year’s team both experience to build on and areas to improve.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            The loss to Brookwood sharpened a lesson that will follow the Lions
-            into every gym this winter, that <strong>details decide games</strong>.
-            Talent can put a team in position to win but it is the smallest
-            habits that often determine who is still standing in the end. St.
-            Andrew’s knows just how thin that margin can be, and now they must
-            turn their experience into sharper execution with a stronger sense
-            of ownership.
+            The loss to Brookwood reinforced an important lesson. Small details can determine the outcome of close games. This season, St. Andrew’s will look to turn last year’s experience into better execution, greater consistency, and more ownership from its players.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            <PlayerLink playerId={202405}>Page Getter</PlayerLink> returns after
-            earning <strong>First Team All-Region and All-State</strong> honors.
-            He steps into an even larger role as a playmaker and leader. Beside
-            him, <PlayerLink playerId={202402}>Chase Brown</PlayerLink> gives the
-            Lions a proven shooter whose confidence grew throughout an
-            impactful offseason. <PlayerLink playerId={202407}>Pat Jackson</PlayerLink>{" "}
-            brings valuable varsity experience and the dependability to steady
-            the team when games become chaotic. Their familiarity with the
-            program gives St. Andrew’s a firm base while new roles come into
-            focus.
+            <PlayerLink playerId={202405}>Page Getter</PlayerLink> returns after earning First Team All-Region and All-State honors last season. A 4.0 student, <PlayerLink playerId={202405}>Getter</PlayerLink> had a strong spring and summer competing with Redline Elite UA Rise and will take on an expanded role as a playmaker and leader. Sandy’s Spiel currently ranks him No. 52 among Georgia’s Class of 2028 prospects, and Prep Hoops also lists him among the class’s top players.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            The newcomer most likely to make fans sit up immediately is{" "}
-            <PlayerLink playerId={202601}>Jordan Walls</PlayerLink>. At 6-foot-9,
-            the Class of 2028 forward can score at the rim or stretch a defense
-            beyond the arc. His mobility gives the Lions a potential paint
-            protector who can also switch onto the ball. Already competing on
-            the club circuit with Redline Elite UA Rise, he has begun to draw
-            statewide attention. Prep Hoops lists him No. 59 among Georgia’s
-            2028 prospects and No. 11 at power forward. Sandy’s Spiel separately
-            ranks him No. 8 among the class’s power forwards.
+            <PlayerLink playerId={202402}>Chase Brown</PlayerLink> returns as a proven shooter after earning Second Team All-Region honors last season. He continued to develop during a productive and impactful AAU season with Redline Elite UA Rise. Sandy’s Spiel currently ranks <PlayerLink playerId={202402}>Brown</PlayerLink> No. 25 among Georgia’s Class of 2028 prospects and No. 8 among shooting guards in the class. Prep Hoops also lists him among the top players in the 2028 class.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            More size arrives with{" "}
-            <PlayerLink playerId={202602}>Filip Sukilovic</PlayerLink>, a
-            6-foot-8 member of the Class of 2027 who comes to Savannah from
-            Serbia. His experience with KK Žitko Basket Beograd gives the Lions
-            an international addition with room to grow into an important
-            frontcourt role. The backcourt adds a different flavor in{" "}
-            <PlayerLink playerId={202603}>Syre Hopkins</PlayerLink>, a
-            5-foot-10 left-handed point guard who looks to create for others
-            first. His willingness to move the ball could become an important
-            ingredient as the rotation takes shape.
+            <PlayerLink playerId={202407}>Pat Jackson</PlayerLink> will also provide veteran experience and leadership.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            The coaching staff caught an early glimpse of how these pieces
-            might fit during June workouts. Since then, the group has attacked
-            the offseason with greater intention and built genuine camaraderie
-            along the way. The energy is there. The next step is for the locker
-            room to find its own voice, with players setting the standard
-            instead of waiting for coaches to supply the spark each day.
+            The Lions also add several players who will bring new dimensions to the roster.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            Offensively, St. Andrew’s wants to play with pace and purpose. The
-            Lions will look to run when opportunities appear but, as always,
-            defense remains the program’s calling card. St. Andrew’s intends to
-            make every possession uncomfortable, pressure the basketball and
-            finish the job on the glass. The revealing moments will come when a
-            shot does not fall or an opponent lands a run. How quickly the Lions
-            answer, and whether they keep defending with the same edge, will
-            show how close their potential is to becoming something dependable.
+            <PlayerLink playerId={202601}>Jordan Walls</PlayerLink> is the most notable newcomer. The 6-foot-9 Class of 2028 forward gives St. Andrew’s size and versatility on both ends of the floor. He can score around the basket, stretch the floor with his outside shooting, and provide a defensive presence in the paint. <PlayerLink playerId={202601}>Walls</PlayerLink> also brings club experience with Redline Elite UA Rise. Prep Hoops currently ranks him No. 58 among Georgia’s Class of 2028 prospects and No. 11 among power forwards, while Sandy’s Spiel ranks him No. 8 among the class’s power forwards.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            There will be no shortage of measuring sticks. The Lions visit
-            South Effingham and Effingham County in November before facing GHSA
-            5A Winder-Barrow in the Winder Thanksgiving Classic. December
-            features a road date with Mount Vernon, plus a matchup against 7A
-            Etowah in the Wood Elite Classic. Holiday tournament games will keep
-            the month moving at full speed. January opens with Saint Francis
-            with 7A Camden County and 6A Chapel Hill coming later in the Sewer
-            South Classic. Those games should reveal plenty before the
-            postseason spotlight arrives.
+            <PlayerLink playerId={202602}>Filip Sukilovic</PlayerLink> adds more size to the frontcourt. The 6-foot-8 Class of 2027 player comes to Savannah from Serbia, where he played with KK Žitko Basket Beograd. His international experience gives the Lions another option in the frontcourt as he adjusts to a new program and level of competition.
           </p>
 
           <p className="mb-4 leading-relaxed text-justify">
-            Region play carries even more electricity this season. St. Andrew’s
-            has won <strong>50 consecutive region games</strong> and{" "}
-            <strong>five consecutive region championships</strong>. Those
-            numbers make the games against the Lions the dates everyone in the
-            region circles. This season Savannah Country Day has moved to the
-            GIAA and joins the region, creating a natural crosstown rivalry with
-            immediate stakes. The Hornets add fresh intrigue to a race in which
-            every opponent will be eager to end St. Andrew’s run.
+            In the backcourt, <PlayerLink playerId={202603}>Syre Hopkins</PlayerLink> brings a different style of play. The 5-foot-10 left-handed point guard looks to create opportunities for his teammates and keep the ball moving. His ability to facilitate could become an important part of the Lions' rotation.
           </p>
 
-          <p className="mb-3 leading-relaxed text-justify">
-            Wins and banners remain worthy goals, but the larger measure of
-            2026–27 will be how much this group grows together. The season’s
-            theme is reflected in the program’s mantra that{" "}
-            <strong>DETAILS</strong> matter. If the Lions learn to take ownership
-            and respond to adversity without splintering, their success will
-            mean more than the final record.
+          <p className="mb-4 leading-relaxed text-justify">
+            The coaching staff got an early look at the group during June workouts. Since then, the players have continued to build chemistry and establish expectations for the season. A key part of that process will be developing a team identity driven by the players themselves.
+          </p>
+
+          <p className="mb-4 leading-relaxed text-justify">
+            Offensively, St. Andrew’s plans to play with pace and purpose. The Lions will look to take advantage of transition opportunities while remaining disciplined in the half court. Defensively, the expectations remain consistent. St. Andrew’s wants to pressure the basketball, make opponents work for quality shots, and finish possessions with strong rebounding.
+          </p>
+
+          <p className="mb-4 leading-relaxed text-justify">
+            The team will also face a schedule designed to provide plenty of early tests. St. Andrew’s travels to South Effingham and Effingham County in November before facing GHSA 5A Winder-Barrow in the Winder Thanksgiving Classic. December includes a road matchup with Mount Vernon and a game against GHSA 7A Etowah in the Wood Elite Classic, along with holiday tournament competition.
+          </p>
+
+          <p className="mb-4 leading-relaxed text-justify">
+            January begins with Saint Francis before the Lions face GHSA 7A Camden County and GHSA 6A Chapel Hill in the Sewer South Classic. Those games will provide additional opportunities to test the team before region play and the postseason.
+          </p>
+
+          <p className="mb-4 leading-relaxed text-justify">
+            Region play will bring its own set of challenges. St. Andrew’s enters the season with 50 consecutive region wins and five straight region championships. Those results have raised the expectations surrounding the program, while also giving every opponent additional motivation.
+          </p>
+
+          <p className="mb-4 leading-relaxed text-justify">
+            Savannah Country Day joins the GIAA this season and becomes part of the region, adding a new crosstown matchup to the schedule. The addition creates another important game in a region where every result will matter.
+          </p>
+
+          <p className="mb-4 leading-relaxed text-justify">
+            For St. Andrew’s, the focus will be on continued development throughout the season. The Lions have experienced players returning, new contributors stepping into the program, and a schedule that will provide opportunities to grow.
+          </p>
+
+          <p className="mb-4 leading-relaxed text-justify">
+            The goal is to become a team that plays with consistency, responds well to adversity, and takes ownership of the details that can decide games. How well the Lions accomplish those things will shape the 2026–27 season.
           </p>
         </div>
       </section>
