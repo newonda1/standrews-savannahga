@@ -17,6 +17,30 @@ import {
 const SEASON_ID = 2026;
 const SEASON_LABEL = "2026–27";
 
+function ScheduleOpponent({ game, children }) {
+  const logoPath =
+    game.OpponentSchool?.LogoPath ||
+    game.OpponentSchool?.BracketLogoPath ||
+    game.OpponentLogoPath;
+
+  return (
+    <span className="inline-flex items-center gap-2 align-top">
+      {logoPath ? (
+        <img
+          src={logoPath}
+          alt=""
+          loading="lazy"
+          className="h-4 w-4 shrink-0 object-contain"
+          onError={(event) => {
+            event.currentTarget.style.display = "none";
+          }}
+        />
+      ) : null}
+      <span>{children}</span>
+    </span>
+  );
+}
+
 function PlayerLink({ playerId, children }) {
   return (
     <Link
@@ -500,16 +524,18 @@ function Season2026_27() {
                           {formatDateFromGameID(game.GameID)}
                         </td>
                         <td className="border px-2 py-1">
-                          {hasResult ? (
-                            <Link
-                              to={`/athletics/boys/basketball/games/${game.GameID}`}
-                              className="text-blue-600 underline hover:text-blue-800"
-                            >
-                              {game.Opponent}
-                            </Link>
-                          ) : (
-                            game.Opponent
-                          )}
+                          <ScheduleOpponent game={game}>
+                            {hasResult ? (
+                              <Link
+                                to={`/athletics/boys/basketball/games/${game.GameID}`}
+                                className="text-blue-600 underline hover:text-blue-800"
+                              >
+                                {game.Opponent}
+                              </Link>
+                            ) : (
+                              game.Opponent
+                            )}
+                          </ScheduleOpponent>
                         </td>
                         <td className="border px-2 py-1">
                           {game.IsComplete === "Yes" ? game.Result : ""}
@@ -584,7 +610,11 @@ function Season2026_27() {
                         <td className="border px-2 py-1">
                           {formatDateFromGameID(game.GameID)}
                         </td>
-                        <td className="border px-2 py-1">{game.Opponent}</td>
+                        <td className="border px-2 py-1">
+                          <ScheduleOpponent game={game}>
+                            {game.Opponent}
+                          </ScheduleOpponent>
+                        </td>
                         {values.map((value, valueIndex) => (
                           <td key={valueIndex} className="border px-2 py-1">
                             {value}
