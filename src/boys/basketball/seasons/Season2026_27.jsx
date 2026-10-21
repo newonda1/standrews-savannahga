@@ -24,19 +24,21 @@ function ScheduleOpponent({ game, children }) {
     game.OpponentLogoPath;
 
   return (
-    <span className="inline-flex items-center gap-2 align-top">
-      {logoPath ? (
-        <img
-          src={logoPath}
-          alt=""
-          loading="lazy"
-          className="h-4 w-4 shrink-0 object-contain"
-          onError={(event) => {
-            event.currentTarget.style.display = "none";
-          }}
-        />
-      ) : null}
-      <span>{children}</span>
+    <span className="inline-grid w-80 max-w-full grid-cols-[1rem_minmax(0,1fr)] items-center gap-2 text-left align-top">
+      <span className="flex h-4 w-4 items-center justify-center" aria-hidden="true">
+        {logoPath ? (
+          <img
+            src={logoPath}
+            alt=""
+            loading="lazy"
+            className="h-4 w-4 object-contain"
+            onError={(event) => {
+              event.currentTarget.style.display = "none";
+            }}
+          />
+        ) : null}
+      </span>
+      <span className="min-w-0">{children}</span>
     </span>
   );
 }

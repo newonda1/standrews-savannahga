@@ -415,7 +415,10 @@
     "SchoolID": "ga-effingham-county-high-school-springfield",
     "Name": "Effingham County High School",
     "City": "Springfield",
-    "State": "GA"
+    "State": "GA",
+    "LogoPath": "/images/schools/logos/ga-effingham-county-high-school-springfield.png",
+    "LogoSourceUrl": "https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_1/v1692716108/effinghamschoolscom/ueqbpr0l1rm8m9rxloq6/echs-red-whiteoutline.png",
+    "LogoSourcePageUrl": "https://echs.effinghamschools.com/athletics"
   },
   {
     "SchoolID": "ga-effingham-county-springfield",
@@ -1038,7 +1041,10 @@
     "SchoolID": "ga-south-effingham-high-school-guyton",
     "Name": "South Effingham High School",
     "City": "Guyton",
-    "State": "GA"
+    "State": "GA",
+    "LogoPath": "/images/schools/logos/ga-south-effingham-high-school-guyton.png",
+    "LogoSourceUrl": "https://resources.finalsite.net/images/f_auto,q_auto/v1681397611/effinghamschoolscom/vtgkjkufxspdfphe9ef3/SEHS.ico",
+    "LogoSourcePageUrl": "https://sehs.effinghamschools.com/"
   },
   {
     "SchoolID": "ga-south-forsyth-high-school-cumming",
@@ -1368,7 +1374,10 @@
     "SchoolID": "ga-winder-barrow-high-school-winder",
     "Name": "Winder-Barrow High School",
     "City": "Winder",
-    "State": "GA"
+    "State": "GA",
+    "LogoPath": "/images/schools/logos/ga-winder-barrow-high-school-winder.jpg",
+    "LogoSourceUrl": "https://files.smartsites.parentsquare.com/10561/1%20(3)_1763625159.jpg",
+    "LogoSourcePageUrl": "https://wbhs.barrow.k12.ga.us/about-home"
   },
   {
     "SchoolID": "ga-windsor-forest-high-school-savannah",
@@ -1752,7 +1761,10 @@
     "SchoolID": "sc-hilton-head-island-high-school-hilton-head-island",
     "Name": "Hilton Head Island High School",
     "City": "Hilton Head Island",
-    "State": "SC"
+    "State": "SC",
+    "LogoPath": "/images/schools/logos/sc-hilton-head-island-high-school-hilton-head-island.png",
+    "LogoSourceUrl": "https://resources.finalsite.net/images/f_auto,q_auto/v1636555625/beaufortk12scus/flo6f1k6ew8trrhnfzko/HiltonHeadIslandHigh_seahawk.png",
+    "LogoSourcePageUrl": "https://hhihs.beaufortschools.net/athletics"
   },
   {
     "SchoolID": "sc-hilton-head-island-hilton-head-island",
@@ -2243,36 +2255,54 @@
     "SchoolID": "fl-trinity-christian-academy-jacksonville",
     "Name": "Trinity Christian Academy",
     "City": "Jacksonville",
-    "State": "FL"
+    "State": "FL",
+    "LogoPath": "/images/schools/logos/fl-trinity-christian-academy-jacksonville.png",
+    "LogoSourceUrl": "https://tcajax.org/wp-content/uploads/sites/3/2021/01/tclogo-150x150.png",
+    "LogoSourcePageUrl": "https://tcajax.org/athletics/"
   },
   {
     "SchoolID": "ga-camden-county-high-school-kingsland",
     "Name": "Camden County High School",
     "City": "Kingsland",
-    "State": "GA"
+    "State": "GA",
+    "LogoPath": "/images/schools/logos/ga-camden-county-high-school-kingsland.png",
+    "LogoSourceUrl": "https://cmsv2-assets.apptegy.net/uploads/21478/file/4777999/9af9128e-4aa1-455f-9d32-159df9b1ae5f.png",
+    "LogoSourcePageUrl": "https://cms.camden.k12.ga.us/o/cchs/page/athletic"
   },
   {
     "SchoolID": "ga-chapel-hill-high-school-douglasville",
     "Name": "Chapel Hill High School",
     "City": "Douglasville",
-    "State": "GA"
+    "State": "GA",
+    "LogoPath": "/images/schools/logos/ga-chapel-hill-high-school-douglasville.png",
+    "LogoSourceUrl": "https://chhspanthers.org/PCF_24/images/logo.jpg",
+    "LogoSourcePageUrl": "https://chhspanthers.org/"
   },
   {
     "SchoolID": "ga-etowah-high-school-woodstock",
     "Name": "Etowah High School",
     "City": "Woodstock",
-    "State": "GA"
+    "State": "GA",
+    "LogoPath": "/images/schools/logos/ga-etowah-high-school-woodstock.jpg",
+    "LogoSourceUrl": "https://resources.finalsite.net/images/f_auto,q_auto/v1697825659/cherokeek12net/dnxxxkm3yjij7nrv9jah/EtowahHSlogo.jpg",
+    "LogoSourcePageUrl": "https://ehs.cherokeek12.net/athletics"
   },
   {
     "SchoolID": "ga-mount-vernon-school-atlanta",
     "Name": "Mount Vernon School",
     "City": "Atlanta",
-    "State": "GA"
+    "State": "GA",
+    "LogoPath": "/images/schools/logos/ga-mount-vernon-school-atlanta.png",
+    "LogoSourceUrl": "https://5starassets.blob.core.windows.net/athleticsites/2608699/187/images/68f7c747-ff3e-43ba-b955-c452a510fa36.png",
+    "LogoSourcePageUrl": "https://athletics.mountvernonschool.org/"
   },
   {
     "SchoolID": "ga-saint-francis-school-milton",
     "Name": "Saint Francis School",
     "City": "Milton",
-    "State": "GA"
+    "State": "GA",
+    "LogoPath": "/images/schools/logos/ga-saint-francis-school-milton.ico",
+    "LogoSourceUrl": "https://www.saintfrancisschools.com/favicon.ico",
+    "LogoSourcePageUrl": "https://www.saintfrancisschools.com/athletics/"
   }
 ]
