@@ -121,6 +121,38 @@ const getBasketballProfileBlurbs = (player) => {
   );
 };
 
+function SocialIcon({ platform }) {
+  if (platform === "instagram") {
+    return (
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 24 24"
+        className="h-4 w-4 shrink-0"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+      >
+        <rect x="4" y="4" width="16" height="16" rx="4.2" />
+        <circle cx="12" cy="12" r="3.8" />
+        <circle cx="17" cy="7" r="1" fill="currentColor" stroke="none" />
+      </svg>
+    );
+  }
+
+  return (
+    <svg
+      aria-hidden="true"
+      focusable="false"
+      viewBox="0 0 24 24"
+      className="h-4 w-4 shrink-0"
+      fill="currentColor"
+    >
+      <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.64 7.584H.47l8.6-9.835L0 1.154h7.594l5.243 6.932 6.064-6.933Zm-1.29 19.494h2.039L6.486 3.24H4.298L17.61 20.647Z" />
+    </svg>
+  );
+}
+
 function PlayerPage() {
   const { playerId } = useParams();
 
@@ -422,10 +454,14 @@ function PlayerPage() {
   const socialLinks = [
     player.InstagramHandle && {
       label: "Instagram",
+      platform: "instagram",
+      handle: player.InstagramHandle,
       href: `https://www.instagram.com/${encodeURIComponent(player.InstagramHandle)}/`,
     },
     player.XHandle && {
       label: "X",
+      platform: "x",
+      handle: player.XHandle,
       href: `https://x.com/${encodeURIComponent(player.XHandle)}`,
     },
   ].filter(Boolean);
@@ -442,7 +478,7 @@ function PlayerPage() {
           className="h-24 w-24 shrink-0 rounded-full border object-cover"
           fallbackClassName="h-24 w-24 shrink-0 rounded-full border bg-white object-contain p-3"
         />
-        <div>
+        <div className="min-w-0">
           <h1 className="text-3xl font-bold">{playerName}</h1>
 
           {playerDetails.length > 0 && (
@@ -452,22 +488,21 @@ function PlayerPage() {
           )}
 
           {socialLinks.length > 0 && (
-            <p className="mt-1 text-sm">
-              {socialLinks.map((social, index) => (
-                <React.Fragment key={social.label}>
-                  {index > 0 && <span className="text-gray-500"> • </span>}
-                  <a
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`${playerName} on ${social.label}`}
-                    className="text-blue-600 underline hover:text-blue-800"
-                  >
-                    {social.label}
-                  </a>
-                </React.Fragment>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {socialLinks.map((social) => (
+                <a
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${playerName} on ${social.label} (@${social.handle})`}
+                  className="inline-flex max-w-full items-center gap-2 rounded-md border border-slate-200 bg-white px-3 py-1.5 text-sm font-medium text-slate-600 no-underline transition hover:border-slate-300 hover:bg-slate-50 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+                >
+                  <SocialIcon platform={social.platform} />
+                  <span className="min-w-0 break-all">@{social.handle}</span>
+                </a>
               ))}
-            </p>
+            </div>
           )}
 
           {yearsWithTeam && (
