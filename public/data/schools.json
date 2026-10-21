@@ -1365,6 +1365,12 @@
     "LogoSourceUrl": "https://giaasports.org/wp-content/uploads/2023/08/GIAA_WilliamReed_Logo.png"
   },
   {
+    "SchoolID": "ga-winder-barrow-high-school-winder",
+    "Name": "Winder-Barrow High School",
+    "City": "Winder",
+    "State": "GA"
+  },
+  {
     "SchoolID": "ga-windsor-forest-high-school-savannah",
     "Name": "Windsor Forest High School",
     "City": "Savannah",

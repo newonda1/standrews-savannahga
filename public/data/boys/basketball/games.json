@@ -14507,7 +14507,9 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "12:30",
+    "Tournament": "Starr's Mill Classic"
   },
   {
     "GameID": 20261117,
@@ -14519,7 +14521,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20261120,
@@ -14531,18 +14534,22 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20261123,
-    "Opponent": "TBD (Winder Thanksgiving Classic)",
+    "Opponent": "Winder-Barrow High School",
     "LocationType": "Neutral",
     "GameType": "Showcase",
     "Result": "",
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30",
+    "Tournament": "Winder Thanksgiving Classic",
+    "OpponentID": "ga-winder-barrow-high-school-winder"
   },
   {
     "GameID": 20261124,
@@ -14553,7 +14560,9 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "TBD",
+    "Tournament": "Winder Thanksgiving Classic"
   },
   {
     "GameID": 20261201,
@@ -14565,7 +14574,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20261204,
@@ -14577,7 +14587,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20261205,
@@ -14589,7 +14600,10 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "2:30",
+    "Tournament": "Wood Elite Classic",
+    "Venue": "Alexander High School"
   },
   {
     "GameID": 20261208,
@@ -14601,7 +14615,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20261211,
@@ -14613,7 +14628,9 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30",
+    "Notes": "Gray Solana"
   },
   {
     "GameID": 20261212,
@@ -14625,7 +14642,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "6:00"
   },
   {
     "GameID": 20261218,
@@ -14636,7 +14654,9 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "TBD",
+    "Tournament": "SCCPSS Holiday Classic"
   },
   {
     "GameID": 20261219,
@@ -14647,7 +14667,9 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "TBD",
+    "Tournament": "SCCPSS Holiday Classic"
   },
   {
     "GameID": 20261230,
@@ -14658,7 +14680,10 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "TBD",
+    "Tournament": "Lemon Street Classic",
+    "Venue": "Marietta High School"
   },
   {
     "GameID": 20270108,
@@ -14670,7 +14695,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20270109,
@@ -14682,7 +14708,10 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "3:00",
+    "Tournament": "Sewer South Classic",
+    "Venue": "Sandy Creek High School"
   },
   {
     "GameID": 20270112,
@@ -14694,7 +14723,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20270116,
@@ -14706,19 +14736,20 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "5:00"
   },
   {
     "GameID": 20270118,
-    "OpponentID": "ga-mount-paran-christian-school-kennesaw",
-    "Opponent": "Mount Paran Christian School",
-    "LocationType": "Neutral",
-    "GameType": "Showcase",
+    "Opponent": "TBD",
+    "LocationType": "",
+    "GameType": "",
     "Result": "",
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "TBD"
   },
   {
     "GameID": 20270119,
@@ -14730,7 +14761,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20270122,
@@ -14742,7 +14774,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20270129,
@@ -14754,7 +14787,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20270130,
@@ -14766,7 +14800,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "5:00"
   },
   {
     "GameID": 20270202,
@@ -14778,7 +14813,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30"
   },
   {
     "GameID": 20270205,
@@ -14790,6 +14826,8 @@
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
-    "IsComplete": "No"
+    "IsComplete": "No",
+    "GameTime": "7:30",
+    "Notes": "Senior Night"
   }
 ]
