@@ -4995,7 +4995,7 @@
     "Players": [
       {
         "PlayerID": 202402,
-        "JerseyNumber": null
+        "JerseyNumber": 10
       },
       {
         "PlayerID": 202501,
@@ -5003,47 +5003,47 @@
       },
       {
         "PlayerID": 202405,
-        "JerseyNumber": null
+        "JerseyNumber": 21
       },
       {
         "PlayerID": 202603,
-        "JerseyNumber": null
+        "JerseyNumber": 2
       },
       {
         "PlayerID": 202407,
-        "JerseyNumber": null
+        "JerseyNumber": 24
       },
       {
         "PlayerID": 202604,
-        "JerseyNumber": null
+        "JerseyNumber": 13
       },
       {
         "PlayerID": 202605,
-        "JerseyNumber": null
+        "JerseyNumber": 22
       },
       {
         "PlayerID": 202602,
-        "JerseyNumber": null
+        "JerseyNumber": 34
       },
       {
         "PlayerID": 202606,
-        "JerseyNumber": null
+        "JerseyNumber": 20
       },
       {
         "PlayerID": 202506,
-        "JerseyNumber": null
+        "JerseyNumber": 15
       },
       {
         "PlayerID": 202601,
-        "JerseyNumber": null
+        "JerseyNumber": 23
       },
       {
         "PlayerID": 202607,
-        "JerseyNumber": null
+        "JerseyNumber": 3
       },
       {
         "PlayerID": 202608,
-        "JerseyNumber": null
+        "JerseyNumber": 11
       }
     ]
   }
