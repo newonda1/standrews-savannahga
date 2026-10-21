@@ -410,6 +410,26 @@ function PlayerPage() {
     null;
 
   const yearsWithTeam = player.YearsWithTeam || "";
+  const height = player.HeightInches
+    ? `${Math.floor(player.HeightInches / 12)}′${player.HeightInches % 12}″`
+    : "";
+  const playerDetails = [
+    jerseyNumber != null ? `#${jerseyNumber}` : "",
+    gradYear ? `Class of ${gradYear}` : "",
+    height,
+    player.WeightLbs ? `${player.WeightLbs} lb` : "",
+  ].filter(Boolean);
+  const socialLinks = [
+    player.InstagramHandle && {
+      label: "Instagram",
+      href: `https://www.instagram.com/${encodeURIComponent(player.InstagramHandle)}/`,
+    },
+    player.XHandle && {
+      label: "X",
+      href: `https://x.com/${encodeURIComponent(player.XHandle)}`,
+    },
+  ].filter(Boolean);
+
   return (
     <div className="player-page max-w-5xl mx-auto p-4 space-y-8">
       <header className="flex items-center gap-4 mb-4">
@@ -425,11 +445,28 @@ function PlayerPage() {
         <div>
           <h1 className="text-3xl font-bold">{playerName}</h1>
 
-          {(jerseyNumber || gradYear) && (
+          {playerDetails.length > 0 && (
             <p className="text-gray-700 text-lg">
-              {jerseyNumber && <span>#{jerseyNumber}</span>}
-              {jerseyNumber && gradYear && <span> • </span>}
-              {gradYear && <span>Class of {gradYear}</span>}
+              {playerDetails.join(" • ")}
+            </p>
+          )}
+
+          {socialLinks.length > 0 && (
+            <p className="mt-1 text-sm">
+              {socialLinks.map((social, index) => (
+                <React.Fragment key={social.label}>
+                  {index > 0 && <span className="text-gray-500"> • </span>}
+                  <a
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${playerName} on ${social.label}`}
+                    className="text-blue-600 underline hover:text-blue-800"
+                  >
+                    {social.label}
+                  </a>
+                </React.Fragment>
+              ))}
             </p>
           )}
 

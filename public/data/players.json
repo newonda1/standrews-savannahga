@@ -3350,7 +3350,11 @@
     "PlayerID": 202402,
     "FirstName": "Chase",
     "LastName": "Brown",
-    "GradYear": 2028
+    "GradYear": 2028,
+    "HeightInches": 75,
+    "WeightLbs": 190,
+    "InstagramHandle": "The_chasebrown",
+    "XHandle": "chasebrown_the"
   },
   {
     "PlayerID": 202403,
@@ -3368,7 +3372,11 @@
     "PlayerID": 202405,
     "FirstName": "Page",
     "LastName": "Getter",
-    "GradYear": 2028
+    "GradYear": 2028,
+    "HeightInches": 75,
+    "WeightLbs": 185,
+    "InstagramHandle": "page_getter",
+    "XHandle": "PageGetter"
   },
   {
     "PlayerID": 202406,
@@ -3522,7 +3530,9 @@
     "PlayerID": 202506,
     "FirstName": "Will",
     "LastName": "Tucker",
-    "GradYear": 2028
+    "GradYear": 2028,
+    "HeightInches": 71,
+    "WeightLbs": 140
   },
   {
     "PlayerID": 202507,
@@ -6597,7 +6607,11 @@
     "FirstName": "Jordan",
     "LastName": "Walls",
     "GradYear": 2028,
-    "Gender": "Boys"
+    "Gender": "Boys",
+    "HeightInches": 81,
+    "WeightLbs": 177,
+    "InstagramHandle": "1_Jordan.W",
+    "XHandle": "Jordan_Walls1"
   },
   {
     "PlayerID": 202602,
@@ -6605,7 +6619,11 @@
     "FirstName": "Filip",
     "LastName": "Sukilovic",
     "GradYear": 2027,
-    "Gender": "Boys"
+    "Gender": "Boys",
+    "HeightInches": 80,
+    "WeightLbs": 188,
+    "InstagramHandle": "filipsukilovic",
+    "XHandle": "FilipSukilovic"
   },
   {
     "PlayerID": 202603,
@@ -6613,7 +6631,11 @@
     "FirstName": "Syre",
     "LastName": "Hopkins",
     "GradYear": null,
-    "Gender": "Boys"
+    "Gender": "Boys",
+    "HeightInches": 70,
+    "WeightLbs": 150,
+    "InstagramHandle": "syrereign",
+    "XHandle": "SyreReign2"
   },
   {
     "PlayerID": 202604,
@@ -6621,7 +6643,11 @@
     "FirstName": "Mathis Ewan",
     "LastName": "Kessel",
     "GradYear": null,
-    "Gender": "Boys"
+    "Gender": "Boys",
+    "HeightInches": 76,
+    "WeightLbs": 175,
+    "InstagramHandle": "mathiskessel9",
+    "XHandle": "mekessel9"
   },
   {
     "PlayerID": 202605,
@@ -6645,7 +6671,11 @@
     "FirstName": "Aaron",
     "LastName": "Whitely",
     "GradYear": null,
-    "Gender": "Boys"
+    "Gender": "Boys",
+    "HeightInches": 71,
+    "WeightLbs": 165,
+    "InstagramHandle": "1_chunk",
+    "XHandle": "Chunkhoops912"
   },
   {
     "PlayerID": 202608,
