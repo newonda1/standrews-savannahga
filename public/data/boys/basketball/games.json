@@ -14500,16 +14500,16 @@
   },
   {
     "GameID": 20261114,
-    "Opponent": "TBD (Starr's Mill Classic)",
-    "LocationType": "Neutral",
-    "GameType": "Showcase",
+    "Opponent": "TBD",
+    "LocationType": "",
+    "GameType": "",
     "Result": "",
     "TeamScore": null,
     "OpponentScore": null,
     "Season": 2026,
     "IsComplete": "No",
-    "GameTime": "12:30",
-    "Tournament": "Starr's Mill Classic"
+    "GameTime": "TBD",
+    "Notes": "Original Starr's Mill Classic game cancelled; replacement game details TBD. Confirmed October 28, 2026."
   },
   {
     "GameID": 20261117,
