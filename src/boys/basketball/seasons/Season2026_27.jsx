@@ -517,6 +517,7 @@ function Season2026_27() {
                 <tbody>
                   {games.map((game, index) => {
                     const hasResult = game.Result === "W" || game.Result === "L";
+                    const reportedScore = game.BoxScore?.Teams.map((team) => team.Totals.PTS).join(" - ");
                     return (
                       <tr
                         key={game.GameID || index}
@@ -527,7 +528,7 @@ function Season2026_27() {
                         </td>
                         <td className="border px-2 py-1">
                           <ScheduleOpponent game={game}>
-                            {hasResult ? (
+                            {hasResult || game.Recap ? (
                               <Link
                                 to={`/athletics/boys/basketball/games/${game.GameID}`}
                                 className="text-blue-600 underline hover:text-blue-800"
@@ -540,12 +541,12 @@ function Season2026_27() {
                           </ScheduleOpponent>
                         </td>
                         <td className="border px-2 py-1">
-                          {game.IsComplete === "Yes" ? game.Result : ""}
+                          {game.IsComplete === "Yes" ? game.Result : reportedScore ? "Reported" : ""}
                         </td>
                         <td className="border px-2 py-1 whitespace-nowrap">
                           {game.IsComplete === "Yes" && game.TeamScore != null
                             ? `${game.TeamScore} - ${game.OpponentScore}`
-                            : ""}
+                            : reportedScore}
                         </td>
                       </tr>
                     );

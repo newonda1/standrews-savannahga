@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { SCHOOLS_PATH, hydrateGamesWithSchools } from "../dataUtils";
+import RecordedBoxScore from "../components/RecordedBoxScore";
 
 function GameDetail() {
   const { gameId } = useParams();
@@ -183,6 +184,8 @@ function GameDetail() {
     game.Result === "W" ? "Win" : game.Result === "L" ? "Loss" : "Result pending";
 
   const showScore = game.Result === "W" || game.Result === "L";
+  const recordedTeams = game.BoxScore?.Teams;
+  const reportedScore = recordedTeams?.map((team) => team.Totals.PTS).join("–");
 
   // ✅ Dynamic “Back to Season” link + label (no hard-coded season)
   const seasonSlug = seasonSlugFromYearStart(game.Season);
@@ -212,22 +215,32 @@ function GameDetail() {
           {formatDate(game.GameID)} vs {game.Opponent}
         </h1>
         <p className="text-lg">
-          {resultText}
-          {showScore && (
-            <>
-              {" "}
-              — {game.TeamScore}–{game.OpponentScore}
-            </>
-          )}
+          {showScore
+            ? `${resultText} — ${game.TeamScore}–${game.OpponentScore}`
+            : reportedScore ? `Reported score — ${reportedScore}` : resultText}
         </p>
         <p className="text-sm text-gray-600">
           {game.LocationType} • {game.GameType}
         </p>
       </header>
 
-      <section>
+      <section className={recordedTeams ? "max-w-3xl" : undefined}>
         <h2 className="text-xl font-semibold mb-2">{recapTitle}</h2>
-        <p className="text-gray-700 leading-relaxed whitespace-pre-line">{recapText}</p>
+        {recordedTeams ? (
+          <div className="space-y-3 leading-relaxed text-gray-700">
+            {recapText.split("\n\n").map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+            {game.PreviousMeetingGameID && (
+              <Link
+                to={`/athletics/boys/basketball/games/${game.PreviousMeetingGameID}`}
+                className="inline-block text-sm text-blue-600 underline hover:text-blue-800"
+              >
+                View the previous meeting
+              </Link>
+            )}
+          </div>
+        ) : (
+          <p className="text-gray-700 leading-relaxed whitespace-pre-line">{recapText}</p>
+        )}
         {recapImages.length > 0 && (
           <div className="mt-4 flex flex-wrap justify-center gap-4">
             {recapImages.map((image, index) => {
@@ -259,7 +272,9 @@ function GameDetail() {
 
       <section>
         <h2 className="text-xl font-semibold mb-2">Box Score</h2>
-        {playerStats.length === 0 ? (
+        {recordedTeams ? (
+          <RecordedBoxScore teams={recordedTeams} />
+        ) : playerStats.length === 0 ? (
           <p className="text-gray-600">No player statistics recorded for this game yet.</p>
         ) : (
           <div className="overflow-x-auto">
