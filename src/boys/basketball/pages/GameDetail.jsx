@@ -119,6 +119,7 @@ function GameDetail() {
   const recordedTeams = game.BoxScore?.Teams;
   const reportedScore = recordedTeams?.map((team) => team.Totals.PTS).join("–");
   const recapPlayers = recordedTeams?.[0]?.Players.filter((player) => player.PlayerID) || [];
+  const firstFullNameOnly = game.RecapPlayerLinks === "first-full-name";
 
   // ✅ Dynamic “Back to Season” link + label (no hard-coded season)
   const seasonSlug = seasonSlugFromYearStart(game.Season);
@@ -159,11 +160,16 @@ function GameDetail() {
 
       <section className={recordedTeams ? "max-w-3xl" : undefined}>
         <h2 className="text-xl font-semibold mb-2">
-          <PlayerLinkedText text={recapTitle} players={recapPlayers} />
+          {firstFullNameOnly ? recapTitle : <PlayerLinkedText text={recapTitle} players={recapPlayers} />}
         </h2>
         {recordedTeams ? (
           <div className="space-y-3 leading-relaxed text-gray-700">
-            {recapText.split("\n\n").map((paragraph) => <p key={paragraph}><PlayerLinkedText text={paragraph} players={recapPlayers} /></p>)}
+            <PlayerLinkedText
+              text={recapText}
+              players={recapPlayers}
+              firstFullNameOnly={firstFullNameOnly}
+              asParagraphs
+            />
             {game.PreviousMeetingGameID && (
               <Link
                 to={`/athletics/boys/basketball/games/${game.PreviousMeetingGameID}`}
