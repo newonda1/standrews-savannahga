@@ -448,5 +448,15 @@
     "Path": "/data/boys/basketball/playergamestats/2025.json",
     "Rows": 307,
     "Games": 28
+  },
+  {
+    "season": 2026,
+    "file": "2026.json",
+    "rows": 24,
+    "games": 2,
+    "Season": 2026,
+    "Path": "/data/boys/basketball/playergamestats/2026.json",
+    "Rows": 24,
+    "Games": 2
   }
 ]

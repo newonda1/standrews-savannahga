@@ -31,7 +31,7 @@ function StatsRow({ row, total = false }) {
   );
 }
 
-export default function RecordedBoxScore({ teams }) {
+export default function RecordedBoxScore({ teams, playerBoxScore }) {
   return (
     <div className="space-y-4 text-xs sm:text-sm">
       <div className="overflow-x-auto">
@@ -62,29 +62,33 @@ export default function RecordedBoxScore({ teams }) {
       <p className="text-gray-600">
         Shooting splits show makes and attempts. Team / unassigned entries are included in the totals.
       </p>
-      {teams.map((team) => (
-        <div key={team.Name} className="overflow-x-auto">
-          <table className="min-w-full text-center tabular-nums">
-            <caption className="pb-2 text-left text-base font-semibold">{team.Name}</caption>
-            <thead className="bg-gray-100">
-              <tr>
-                <th scope="col" className={`${cell} text-left`}>Player</th>
-                <th scope="col" className={cell} aria-label="Jersey number">#</th>
-                {columns.map(([key, label]) => (
-                  <th key={key} scope="col" className={cell} title={label} aria-label={label}>
-                    {key}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {team.Players.map((row) => <StatsRow key={row.Name} row={row} />)}
-            </tbody>
-            <tfoot>
-              <StatsRow row={team.Totals} total />
-            </tfoot>
-          </table>
-        </div>
+      {teams.map((team, index) => (
+        index === 0 && playerBoxScore ? (
+          <React.Fragment key={team.Name}>{playerBoxScore}</React.Fragment>
+        ) : (
+          <div key={team.Name} className="overflow-x-auto">
+            <table className="min-w-full text-center tabular-nums">
+              <caption className="pb-2 text-left text-base font-semibold">{team.Name}</caption>
+              <thead className="bg-gray-100">
+                <tr>
+                  <th scope="col" className={`${cell} text-left`}>Player</th>
+                  <th scope="col" className={cell} aria-label="Jersey number">#</th>
+                  {columns.map(([key, label]) => (
+                    <th key={key} scope="col" className={cell} title={label} aria-label={label}>
+                      {key}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {team.Players.map((row) => <StatsRow key={row.Name} row={row} />)}
+              </tbody>
+              <tfoot>
+                <StatsRow row={team.Totals} total />
+              </tfoot>
+            </table>
+          </div>
+        )
       ))}
     </div>
   );

@@ -30,6 +30,7 @@ export function buildIdMap(items, key) {
 }
 
 export function countsAsPlayerGame(stat) {
+  if (typeof stat?.Played === "boolean") return stat.Played;
   return PLAYER_GAME_STAT_FIELDS.some((field) => {
     const value = Number(stat?.[field]);
     return Number.isFinite(value) && value !== 0;
