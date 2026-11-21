@@ -15060,7 +15060,8 @@
           ]
         }
       ]
-    }
+    },
+    "RecapPlayerLinks": "first-full-name"
   },
   {
     "GameID": 20261120,
